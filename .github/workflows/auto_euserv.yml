@@ -24,8 +24,8 @@ jobs:
 
     - name: Run script
       env:
-        EUSERV_USERNAME: ${{ secrets.EUSERV_USERNAME }}
-        EUSERV_PASSWORD: ${{ secrets.EUSERV_PASSWORD }}
+        USERNAME: ${{ secrets.USERNAME }}
+        PASSWORD: ${{ secrets.PASSWORD }}
         TRUECAPTCHA_USERID: ${{ secrets.TRUECAPTCHA_USERID }}
         TRUECAPTCHA_APIKEY: ${{ secrets.TRUECAPTCHA_APIKEY }}
         TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
